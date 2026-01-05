@@ -1,0 +1,20 @@
+{
+  "name": "bcc-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.1.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
