@@ -40,7 +40,7 @@ This system ensures certificates are **tamper-proof, transparent, and verifiable
 - **Contract Name:** CertificateVerification  
 - **Network:** Ethereum Sepolia  
 - **Contract Address:**  
-0x3c6b8668cE33c7CD58D1C9903fEc6da4405A692e
+  0xb05A6ca2e75F6275c8162727BEa1D1F8d5e0b235
 - **Etherscan Link:**  
 https://sepolia.etherscan.io/address/0x3c6b8668cE33c7CD58D1C9903fEc6da4405A692e
 
