@@ -36,6 +36,26 @@ h1 {
   margin-bottom: 20px;
 }
 
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #ddd;
+  border-radius: 8px 8px 0 0;
+}
+
+.tab.active {
+  background: #22c55e;
+  color: white;
+}
+
 input {
   width: 100%;
   padding: 12px;

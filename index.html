@@ -11,16 +11,28 @@
   <div class="glass-card">
     <h1>🎓 Certificate Verification</h1>
     <p class="subtitle">
-      Verify academic certificates securely using Ethereum blockchain
+      Issue and verify academic certificates using Ethereum blockchain
     </p>
 
-    <input
-      type="text"
-      id="certHash"
-      placeholder="Enter Certificate Hash"
-    />
+    <div class="tabs">
+      <button id="verifyTab" class="tab active">Verify Certificate</button>
+      <button id="issueTab" class="tab">Issue Certificate</button>
+    </div>
 
-    <button onclick="verifyCertificate()">Verify Certificate</button>
+    <!-- VERIFY SECTION -->
+    <div id="verifySection">
+      <input type="text" id="certHash" placeholder="Enter Certificate Hash" />
+      <button onclick="verifyCertificate()">Verify Certificate</button>
+    </div>
+
+    <!-- ISSUE SECTION -->
+    <div id="issueSection" style="display:none;">
+      <input type="text" id="studentName" placeholder="Student Name" />
+      <input type="text" id="course" placeholder="Course" />
+      <input type="text" id="institution" placeholder="Institution" />
+      <input type="date" id="issueDate" />
+      <button onclick="issueCertificate()">Issue Certificate</button>
+    </div>
 
     <div id="result" class="result"></div>
   </div>
